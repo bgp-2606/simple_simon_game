@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="400.0" maxWidth="600.0" minHeight="400.0" minWidth="600.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="simon.Main">
+   <children>
+      <Label layoutX="33.0" layoutY="26.0" text="Welcome! This is a beta version of Simon: Follow the Pattern game.">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="23.0" layoutY="47.0" text="Unlike the traditional color memory game, this beta version includes ">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="67.0" text="number memory challenge played on the Java Eclipse console.">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="109.0" text="INSTRUCTIONS:">
+         <font>
+            <Font name="Copperplate Gothic Light" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="147.0" text="1. Press “Start” button to play. The game will be transferred to the console.">
+         <font>
+            <Font name="Copperplate Gothic Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="176.0" text="2. The number pattern will be shown. Type your number pattern guess, ">
+         <font>
+            <Font name="Copperplate Gothic Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="70.0" layoutY="195.0" text="then press ENTER.">
+         <font>
+            <Font name="Copperplate Gothic Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="50.0" layoutY="225.0" text="3. Follow the instructions on the console if any. ">
+         <font>
+            <Font name="Copperplate Gothic Light" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="199.0" layoutY="262.0" text="Enjoy playing.">
+         <font>
+            <Font name="Copperplate Gothic Bold" size="20.0" />
+         </font>
+      </Label>
+      <Button layoutX="225.0" layoutY="324.0" mnemonicParsing="false" onAction="#closeRules" text="Back" textAlignment="CENTER">
+         <font>
+            <Font name="Chopsic" size="24.0" />
+         </font>
+         <effect>
+            <Lighting>
+               <bumpInput>
+                  <Shadow />
+               </bumpInput>
+               <light>
+                  <Light.Distant />
+               </light>
+            </Lighting>
+         </effect>
+      </Button>
+   </children>
+</AnchorPane>
